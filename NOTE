@@ -1,0 +1,56 @@
+1ST OF ALL (ADD THE NEEDED)
+Stage -> Warrior assets -> Texture it 
+HUMANOID
+
+Subdividing the Animation needed
+Do the coding of the movement -> Respawn point
+
+Editing Animation (Graph)
+Forward/Backward = FLOAT
+Sprint = bool
+
+Jump = trigger
+IsFalling = bool
+IsGrounded = bool
+Drop = trigger
+
+Attack = trigger
+Skill 1 = trigger
+Skill 2 = trigger
+
+knockback = trigger
+Death = trigger
+
+IF EVER SIZING
+Step offset = 0.02
+Skin Width = 0.01
+Radius = 0.05 
+Height = 0.2
+Center Y = 0.1
+
+FORWARD AND RIGHT (TAKE NOTE OF HAS EXIT TIME)
+ALL POSITIVE (0.1)
+idle -> Forward/right = greater than
+Forward/right -> idle = less than
+
+BACKWARD AND LEFT
+ALL NEGATIVE (-0.1)
+idle -> Backward/left = less than
+Backward/left = greater than
+
+Sprint
+Forward -> sprint = Greater than 0.1 
+Sprint = true
+
+sprint -> Move Forward = Less than -0.1 
+
+ANIMATION
+apply root motion = unchecked
+
+
+B.
+Setup the collider for Sword
+
+
+
+
